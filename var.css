@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Homemade+Apple&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+:root{
+    --inter : "Inter", sans-serif;
+    /* Heading Web */
+    --wH1Size: 70px;
+    --wH1ExtraBold: 800;
+
+    --wH2Size: 50px;
+    --wH2Bold: 700;
+
+    --wH3Size: 35px;
+    --wH3SemiBold: 600;
+
+    --wH4Size: 26px;
+    --wH4Bold: 700;
+
+    --wH5Size: 24px;
+    --wH5Medium: 500;
+    --wH5Bold: 700;
+
+    --wH6Size: 20px;
+    --wH6SemiBold: 600;
+    --wH6Bold: 700;
+
+    --wH7Size: 18px;
+    --wH7SemiBold: 600;
+
+    --wH8Size: 16px;
+    --wH8SemiBold: 600;
+
+    --wH9Size: 14px;
+    --wH9SemiBold: 600;
+
+    /* Paragraph  Web*/
+    --WPRegular: 400;
+    --WP1Size: 18px;
+    --WP2Size: 16px;
+    --WP3Size: 14px;
+
+    /* Special Text Web */
+    --homeMadeApple: "Homemade Apple", cursive;
+    --wH1SpecialTextSize: 32px;
+    --wSpecialTextRegular: 400;
+
+    --wH2SpecialTextSize: 18px;
+
+    /* Heading Mobile */
+    --MH1Size: 36px;
+    --MH1ExtraBold: 800;
+
+    --MH2Size: 26px;
+    --MH2Bold: 700;
+
+    --MH3Size: 18px;
+    --MH3SemiBold: 600;
+
+    --MH4Size: 14px;
+    --MH4Bold: 700;
+    --MH4SemiBold: 600;
+    --MH4SemiMedium: 500;
+
+    --MH5Size: 12px;
+    --MH5SemiBold: 600;
+
+    --MH6Size: 10px;
+    --MH6SemiBold: 600;
+
+    --MH7Size: 8px;
+    --MH7SemiBold: 600;
+
+
+    /* Paragraph Mobile */
+    --MPRegular: 400;
+    --MP1Size: 12px;
+    --MP2Size: 10px;
+    --MP3Size: 8px;
+
+    /* Special Text Mobile */
+    --MH1SpecialTextSize: 16px;
+    --MH1SpecialTextREgular: 400;
+
+    --mH2SpecialTextSize: 10px;
+
+
+
+    /* Text Color */
+    --textDark: #1c110a;
+    --textLight: #576165;
+
+    /* Colors */
+    --primaryColorOrange: #ff9f66;
+    --peimaryColorBase:#FF9F66;
+    --primaryColorBaseLight: #FFB081;
+    --peimaryColorLight:#FFF1E8;
+    --secondaryColorYellow: #EDC988;
+    --primaryColorGreen: #258675;
+    --primaryColorGreen2: #45A090;
+    --secondaryColorPink: #FEAEA3;
+    --secondaryColorDeepPink: #FF7D6B;
+    --stroke: #B0B4C0;
+    --stroke2: #CFCFCF;
+    --stroke3: #F4F5F7;
+}
+
