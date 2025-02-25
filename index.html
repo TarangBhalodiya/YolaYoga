@@ -5,189 +5,218 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <script src="https://unpkg.com/@tailwindcss/browser@4"></script>
+    
     <title>Yola Yoga Landing Page</title>
 </head>
 
 <body>
-    <div id="round"></div>
-
-    <nav class="navigation ">
-        <div class="left">
-            <img id="logo" src="/assets/Logo.png" alt="logo">
-            <div class="navLinks">
-                <a href="#" class="navLink">Home</a>
-                <a href="#" class="navLink">Classes</a>
-                <a href="#" class="navLink">Features</a>
-                <a href="#" class="navLink">Contact</a>
-            </div>
+    <!-- Navigationbar start -->
+    <header>
+        <div class="container">
+            <nav class="navigation row">
+                <div class="left">
+                    <img id="logo" src="/assets/Logo.png" alt="logo">
+                    <div class="navLinks">
+                        <a href="#" class="navLink">Home</a>
+                        <a href="#" class="navLink">Classes</a>
+                        <a href="#" class="navLink">Features</a>
+                        <a href="#" class="navLink">Contact</a>
+                    </div>
+                </div>
+                <div class="cta">
+                    <a href="#" class="ctaLink l1">Sign In</a>
+                    <a href="#" class="ctaLink l2">Sign Up</a>
+                    <a href="#" class="ctaLink l3"><img src="/assets/menu.png" alt="Hamburger Menu"></a>
+            </nav>
         </div>
-        <div class="cta">
-            <a href="#" class="ctaLink l1">Sign In</a>
-            <a href="#" class="ctaLink l2">Sign Up</a>
-            <a href="#" class="ctaLink l3"><img src="/assets/menu.png" alt="Hamburger Menu"></a>
-    </nav>
+    
+    </header>
+    <!-- Navigationbar end -->
 
+    <!-- Hero section start -->
     <section class="hero">
         <img src="/assets/EllipseGreen.png" alt="Ellipse" class="ellipse e1">
         <img src="/assets/EllipsePink.png" alt="Ellipse" class="ellipse e2">
         <img src="/assets/EllipseOrange.png" alt="Ellipse" class="ellipse e3">
         <img src="/assets/EllipseGreen.png" alt="Ellipse" class="ellipse e4">
-        <div class="content">
-            <h1 id="mainHead">Yoga to Release Stress</h1>
-            <p id="desc" class="desc">Yoga is a way of life, rather than a chore. Counteract the stresses of modern life
-                by becoming more mindful and compassionate.</p>
-            <div class="btns">
-                <button id="btn1">Get Started</button>
-                <button id="btn2">Learn More</button>
+        <div class="container row">
+            <div class="content">
+                <h1 id="mainHead">Yoga to <br> Release Stress</h1>
+                <p id="desc" class="desc">Yoga is a way of life, rather than a chore. Counteract the stresses of modern life
+                    by becoming more mindful and compassionate.</p>
+                <div class="btns">
+                    <button id="btn1">Get Started</button>
+                    <button id="btn2">Learn More</button>
+                </div>
+            </div>
+            <div class="manImg">
+                <img src="/assets/young-smiling-guy-sitting-fitness-mat-meditating-removebg 1dew.png" alt="young-smiling-guy-sitting-fitness-mat-meditating">
             </div>
         </div>
-        <div class="manImg">
-            <div class="round2"></div>
-            <img src="/assets/young-smiling-guy-sitting-fitness-mat-meditating-removebg 1dew.png" alt="young-smiling-guy-sitting-fitness-mat-meditating">
-        </div>
     </section>
+    <!-- Hero section end -->
 
+    <!-- Cards section start -->
     <section class="horizontalBar">
-        <div class="cards">
-            <div class="card c1">
-                <div class="cardDesc">
-                    <div>
-                        <h5>Make Your Own Plan For Yoga.</h5>
-                        <p class="num">1</p>
-                    </div>
-                </div>
-                <img src="/assets/man-standing-one-leg-full-shot.png" alt="man-standing-one-leg">
-            </div>
-            <div class="card c2">
-                <div class="cardDesc">
-                    <div>
-                        <h5>Find a Yoga Mentor For You.</h5>
-                        <p class="num">2</p>
-                    </div>
-                </div>
-                <img src="/assets/young-couple-relaxing-meditating-while-standing-against-white-wall.png" alt="young-couple-relaxing-meditating">
-            </div>
-
-            <div class="card c3">
-                <div class="cardDesc">
-                    <div>
-                        <div class="detail">
-                            <h5>Every-Day Open Master Classes.</h5>
-                            <p class="num">3</p>
-                        </div>
-                        <div class="readM">
-                            <p>We’re boosting online yoga by enabling anyone in the world to learn from the best</p>
-                            <a href="#">READ MORE</a>
+        <div class="container ">
+            <div class="cards">
+                <div class="card c1">
+                    <div class="cardDesc">
+                        <div>
+                            <h5>Make Your Own Plan For Yoga.</h5>
+                            <p class="num">1</p>
                         </div>
                     </div>
+                    <img src="/assets/man-standing-one-leg-full-shot.png" alt="man-standing-one-leg">
                 </div>
-                <img src="/assets/young-beautiful-lady-sitting-near-window-make-yoga-exercises 1.png" alt="lady-sitting-near-window-make-yoga">
+                <div class="card c2">
+                    <div class="cardDesc">
+                        <div>
+                            <h5>Find a Yoga Mentor For You.</h5>
+                            <p class="num">2</p>
+                        </div>
+                    </div>
+                    <img src="/assets/young-couple-relaxing-meditating-while-standing-against-white-wall.png" alt="young-couple-relaxing-meditating">
+                </div>
+    
+                <div class="card c3">
+                    <div class="cardDesc">
+                        <div>
+                            <div class="detail">
+                                <h5>Every-Day Open Master Classes.</h5>
+                                <p class="num">3</p>
+                            </div>
+                            <div class="readM">
+                                <p>We’re boosting online yoga by enabling anyone in the world to learn from the best</p>
+                                <a href="#">READ MORE</a>
+                            </div>
+                        </div>
+                    </div>
+                    <img src="/assets/young-beautiful-lady-sitting-near-window-make-yoga-exercises 1.png" alt="lady-sitting-near-window-make-yoga">
+                </div>
             </div>
         </div>
     </section>
+    <!-- Cards section end -->
 
-    <section class="about">
-        <img src="/assets/EllipseGreen.png" alt="Ellipse" class="ellipse e5">
-        <div class="experience">
-            <div class="expCard">
-                <h2 class="expNum">05+</h2>
-                <h6 class="expDesc">Years of Experience</h6>
-                <p class="expP">We are 05 years of experienced in this yoga field. Giving the best instructions.</p>
+    <!-- About Section start -->
+    <div class="container ">
+    <section class="about row">
+            <img src="/assets/EllipseGreen.png" alt="Ellipse" class="ellipse e5">
+            <div class="experience">
+                <div class="expCard">
+                    <h2 class="expNum">05+</h2>
+                    <h6 class="expDesc">Years of Experience</h6>
+                    <p class="expP">We are 05 years of experienced in this yoga field. Giving the best instructions.</p>
+                </div>
+                <div class="expCard">
+                    <h2 class="expNum">5K+</h2>
+                    <h6 class="expDesc">Happy Clients</h6>
+                    <p class="expP">We have over five thousand clients all over the world. They are very satisfied.</p>
+                </div>
+                <div class="expCard">
+                    <h2 class="expNum">15+</h2>
+                    <h6 class="expDesc">Experienced Trainer</h6>
+                    <p class="expP">We have over fifteen dedicated and experienced trainer for yoga and meditation.</p>
+                </div>
+                <div class="expCard">
+                    <h2 class="expNum">24+</h2>
+                    <h6 class="expDesc">Monthly Classes</h6>
+                    <p class="expP">Yoga is a physical, mental and spritual practice discipline. We provide 24+ classes
+                        monthly.</p>
+                </div>
             </div>
-            <div class="expCard">
-                <h2 class="expNum">5K+</h2>
-                <h6 class="expDesc">Happy Clients</h6>
-                <p class="expP">We have over five thousand clients all over the world. They are very satisfied.</p>
+            <div class="experienceDesc">
+                <h2 id="expHead">Relax And Enjoy a Personalized Day Yoga With Us.</h2>
+                <h4>John Cena</h4>
+                <p>John Cena <span>/Founder</span></p>
             </div>
-            <div class="expCard">
-                <h2 class="expNum">15+</h2>
-                <h6 class="expDesc">Experienced Trainer</h6>
-                <p class="expP">We have over fifteen dedicated and experienced trainer for yoga and meditation.</p>
-            </div>
-            <div class="expCard">
-                <h2 class="expNum">24+</h2>
-                <h6 class="expDesc">Monthly Classes</h6>
-                <p class="expP">Yoga is a physical, mental and spritual practice discipline. We provide 24+ classes
-                    monthly.</p>
-            </div>
-        </div>
-        <div class="experienceDesc">
-            <h2 id="expHead">Relax And Enjoy a Personalized Day Yoga With Us.</h2>
-            <h4>John Cena</h4>
-            <p>John Cena <span>/Founder</span></p>
-        </div>
-    </section>
-
+        </section>
+    </div>
+    <!-- About Section end -->
+ 
+    <!-- Video Section start -->
     <section class="videoSection">
         <img src="/assets/EllipseGreen.png" alt="Ellipse" class="ellipse e6">
         <img src="/assets/EllipseOrange.png" alt="Ellipse" class="ellipse e7">
         <img src="/assets/EllipseGreen.png" alt="Ellipse" class="ellipse e8">
-        <div class="video">
-            <img class="banner" src="/assets/young-beautiful-lady-sitting-near-window-make-yoga-exercises 2.png" alt="lady-sitting-near-window-make-yoga">
-            <img class="playIcon" src="/assets/Play.png" alt="play Icon">
-        </div>
-        <div class="videoDesc">
-            <h2>The Better Way to Start Yoga</h2>
-            <div>
-                <p>Practice anywhere, anytime. Explore a new way to exercise and learn more about yourself. We are
-                    providing the best.</p>
-                <button class="StartedBtn">Get Started</button>
+        <div class="container">
+            <div class="video">
+                <img class="banner" src="/assets/young-beautiful-lady-sitting-near-window-make-yoga-exercises 2.png" alt="lady-sitting-near-window-make-yoga">
+                <img class="playIcon" src="/assets/Play.png" alt="play Icon">
+            </div>
+            <div class="videoDesc">
+                <h2>The Better Way to <br> Start Yoga</h2>
+                <div>
+                    <p>Practice anywhere, anytime. Explore a new way to exercise and learn more about yourself. We are
+                        providing the best.</p>
+                    <button class="StartedBtn">Get Started</button>
+                </div>
             </div>
         </div>
     </section>
+    <!-- Video Section end -->
 
+    <!-- Courses Section start -->
     <section class="courses">
-        <img src="/assets/EllipsePink.png" alt="Ellipse" class="ellipse e9">
-        <img src="/assets/EllipseGreen.png" alt="Ellipse" class="ellipse e10">
-        <h2>Popular Courses</h2>
-        <p>Practice anywhere, anytime. Explore a new way to exercise and learn more about yourself. We are providing the
-            best.</p>
-        <div class="courseCards">
-            <div class="courseCard">
-                <img class="manYoga" src="/assets/Rectangle 4539.png" alt="man-doing-Yoga">
-                <h4>Resortive Yoga Training & Immersion</h4>
-                <p>Here is some tips for new job seekars who want to get a dream job and want to shine in his career.
-                </p>
-                <div class="ratings">
-                    <div class="rating">
-                        <img src="/assets/Rating.png" alt="Rating">
-                        <span>(18)</span>
-                    </div>
-                    <a href="#" class="startLink">Get Started</a>
-                </div>
-            </div>
-            <div class="courseCard">
-                <img class="manYoga" src="/assets/Rectangle 4540.png" alt="man-doing-yoga">
-                <h4>Resortive Yoga Training & Immersion</h4>
-                <p>Here is some tips for new job seekars who want to get a dream job and want to shine in his career.
-                </p>
-                <div class="ratings">
-                    <div class="rating">
-                        <img src="/assets/Rating.png" alt="rating">
-                        <span>(18)</span>
-                    </div>
-                    <a href="#" class="startLink">Get Started</a>
-                </div>
-            </div>
-            <div class="courseCard">
-                <img class="manYoga" src="/assets/Rectangle 4541.png" alt="man-doing-yoga">
-                <h4>Resortive Yoga Training & Immersion</h4>
-                <p>Here is some tips for new job seekars who want to get a dream job and want to shine in his career.
-                </p>
-                <div class="ratings">
-                    <div class="rating">
-                        <img src="/assets/Rating.png" alt="rating">
-                        <span>(18)</span>
-                    </div>
-                    <a href="#" class="startLink">Get Started</a>
-                </div>
-            </div>
-        </div>
-        <button class="browse">Browse All</button>
-    </section>
+        <div class="container">
 
+            <img src="/assets/EllipsePink.png" alt="Ellipse" class="ellipse e9">
+            <img src="/assets/EllipseGreen.png" alt="Ellipse" class="ellipse e10">
+            <h2>Popular Courses</h2>
+            <p>Practice anywhere, anytime. Explore a new way to exercise and learn more about yourself. We are providing the
+                best.</p>
+            <div class="courseCards">
+                <div class="courseCard">
+                    <img class="manYoga" src="/assets/Rectangle 4539.png" alt="man-doing-Yoga">
+                    <h4>Resortive Yoga Training & Immersion</h4>
+                    <p>Here is some tips for new job seekars who want to get a dream job and want to shine in his career.
+                    </p>
+                    <div class="ratings">
+                        <div class="rating">
+                            <img src="/assets/Rating.png" alt="Rating">
+                            <span>(18)</span>
+                        </div>
+                        <a href="#" class="startLink">Get Started</a>
+                    </div>
+                </div>
+                <div class="courseCard">
+                    <img class="manYoga" src="/assets/Rectangle 4540.png" alt="man-doing-yoga">
+                    <h4>Resortive Yoga Training & Immersion</h4>
+                    <p>Here is some tips for new job seekars who want to get a dream job and want to shine in his career.
+                    </p>
+                    <div class="ratings">
+                        <div class="rating">
+                            <img src="/assets/Rating.png" alt="rating">
+                            <span>(18)</span>
+                        </div>
+                        <a href="#" class="startLink">Get Started</a>
+                    </div>
+                </div>
+                <div class="courseCard">
+                    <img class="manYoga" src="/assets/Rectangle 4541.png" alt="man-doing-yoga">
+                    <h4>Resortive Yoga Training & Immersion</h4>
+                    <p>Here is some tips for new job seekars who want to get a dream job and want to shine in his career.
+                    </p>
+                    <div class="ratings">
+                        <div class="rating">
+                            <img src="/assets/Rating.png" alt="rating">
+                            <span>(18)</span>
+                        </div>
+                        <a href="#" class="startLink">Get Started</a>
+                    </div>
+                </div>
+            </div>
+            <button class="browse">Browse All</button>
+        </div>
+    </section>
+    <!-- Courses Section end -->
+
+    <!-- Prizing Section Start -->
     <section class="prizing">
+        <div class="container">
+
+     
         <h2>Pick a Pricing Plan</h2>
         <p>Pick a pricing plan and get started your journey with us for build your body and mind</p>
         <div class="plans">
@@ -255,78 +284,108 @@
                 </div>
             </div>
         </div>
+    </div>
     </section>
+    <!-- Prizing Section end -->
 
+
+    <!-- Testimonial section start -->
     <section class="customersReview">
         <img src="/assets/Pattern.png" alt="Ellipse" class="ellipse e11">
-        <img src="/assets/zigzag.png" alt="Ellipse" class="ellipse e12">
-        <img src="/assets/round.png" alt="Ellipse" class="ellipse e13">
-        <h2>What People Say
-            <hr>About Us
-        </h2>
-        <div class="testimonials">
-            <div class="customer">
-                <div class="profilePic">
-                    <img src="/assets/image 758.png" alt="Profile Picture">
-
+        <div class="container">
+            <h2>What People Say
+                <br>About Us
+            </h2>
+            <div class="testimonials">
+                <div class="customer">
+                    <img src="/assets/zigzag.png" alt="Ellipse" class="ellipse e12">
+                    <img src="/assets/round.png" alt="Ellipse" class="ellipse e13">
+                    <img src="/assets/circle.png" alt="Ellipse" class="ellipse e14">
+                    <img src="/assets/cross.png" alt="Ellipse" class="ellipse e15">
+            
+                    <div class="profilePic">
+                        <img src="/assets/image 758.png" alt="Profile Picture">
+    
+                    </div>
+                    <p>This is the great and best platform for yoga and meditation. I got a very good body at body now, my
+                        body shapes is fine now. I am very grateful to them. They are providing a great service.</p>
+                    <h6 class="custName">Trent Boult</h6>
+                    <p class="role">Web Designer</p>
                 </div>
-                <p>This is the great and best platform for yoga and meditation. I got a very good body at body now, my
-                    body shapes is fine now. I am very grateful to them. They are providing a great service.</p>
-                <h6 class="custName">Trent Boult</h6>
-                <p class="role">Web Designer</p>
             </div>
-        </div>
-        <div class="slider">
-            <div class="round"></div>
-            <div class="round">
-                <div class="selected"></div>
+            <div class="slider">
+                <div class="round"></div>
+                <div class="round">
+                    <div class="selected"></div>
+                </div>
+                <div class="round"></div>
             </div>
-            <div class="round"></div>
         </div>
     </section>
+    <!-- Testimonial section end -->
 
+    <!-- SubscribeSection Start -->
     <section class="subscribeSection">
-        <div class="subscribe">
-            <h4>Subscribe Our Newsletter</h4>
-            <p>Subscribe our newsletter for further updates about us</p>
-            <div class="email">
-                <input type="text" placeholder="Enter your email address">
-                <button type="submit" class="submit">Get Started</button>
+        <div class="container">
+            <div class="subscribe">
+                <h4>Subscribe Our Newsletter</h4>
+                <p>Subscribe our newsletter for further updates about us</p>
+                <div class="email">
+                    <input type="text" placeholder="Enter your email address">
+                    <button type="submit" class="submit">Get Started</button>
+                </div>
             </div>
         </div>
     </section>
+    <!-- SubscribeSection end -->
 
+    <!-- ContactForm start -->
+    <div class="container">
     <section class="contactForm">
-        <div class="contactDesc">
-            <h2>Get in Touch With Us for Yoga Course.</h2>
-            <p>Get in touch with us for any kind of help. We are here to give you the best and also here to help you to
-                find your yoga course.</p>
-        </div>
-        <div class="formSec">
-            <form action="get">
-                <input type="text" name="" id="" class="contactField" placeholder="First name">
-                <input type="text" name="" id="" class="contactField" placeholder="Last name">
-                <input type="text" name="" id="" class="contactField" placeholder="Email address">
-                <textarea name="" id="" class="contactField" placeholder="Message" rows="4"></textarea>
-                <div class="checkDiv ">
-                    <input type="checkbox" name="" id="">
-                    <p>by clicking here you agree to our <span>tearms and policy.</span></p>
-                </div>
-                <button type="submit" class="sendMsg">Send Message</button>
-            </form>
-        </div>
-    </section>
+            <div class="contactDesc">
+                <h2>Get in Touch With Us for Yoga Course.</h2>
+                <p>Get in touch with us for any kind of help. We are here to give you the best and also here to help you to
+                    find your yoga course.</p>
+            </div>
+            <div class="formSec">
+                <form action="get">
+                    <input type="text" name="" id="" class="contactField" placeholder="First name">
+                    <input type="text" name="" id="" class="contactField" placeholder="Last name">
+                    <input type="text" name="" id="" class="contactField" placeholder="Email address">
+                    <textarea name="" id="" class="contactField" placeholder="Message" rows="4"></textarea>
+                    <div class="checkDiv ">
+                        <input type="checkbox" name="" id="">
+                        <p>by clicking here you agree to our <a href="#">tearms and policy.</a></p>
+                    </div>
+                    <button type="submit" class="sendMsg">Send Message</button>
+                </form>
+            </div>
+        </section>
+    </div>
+    <!-- ContactForm end -->
 
+    <!-- Footer start -->
     <footer>
-        <img src="/assets/Logo.png" alt="logo" class="logo">
-        <p class="copyRight">© 2022 UI HUT. All rights reserved. </p>
-        <div class="socialIcons">
-            <img src="/assets/facebook.svg" alt="facebook">
-            <img src="/assets/instagram.svg" alt="instagram">
-            <img src="/assets/twitter.svg" alt="twitter">
+        <div class="container row">
+            <img src="/assets/Logo.png" alt="logo" class="logo">
+            <p class="copyRight">© 2022 UI HUT. All rights reserved. </p>
+            <div class="socialIcons">
+                <button>
+                    <a href="#"><img src="/assets/facebook.svg" alt="facebook"></a>
+                </button>
+                <button>
+                    <a href="#"> <img src="/assets/instagram.svg" alt="instagram"></a>
+                </button>
+                <button>
+                    <a href="#"> <img src="/assets/twitter.svg" alt="twitter"></a>
+                </button>
+                
+               
+        </div>
+           
         </div>
     </footer>
-    <script src="animation.js"></script>
+    <!-- Footer end -->
 </body>
 
 </html>

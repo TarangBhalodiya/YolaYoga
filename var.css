@@ -41,8 +41,20 @@
     --homeMadeApple: "Homemade Apple", cursive;
     --wH1SpecialTextSize: 32px;
     --wSpecialTextRegular: 400;
-
     --wH2SpecialTextSize: 18px;
+
+    /* Heading Tablet*/
+    --tH1Size: 50px;
+    --tH2Size: 38px;
+    --tH3Size: 27px;
+    --tH4Size: 21px;
+    --tH5Size: 18px;
+    --tH6Size: 15px;
+    --tH7Size: 12px;
+
+    --WP1Size: 16px;
+    --WP2Size: 13px;
+    --WP3Size: 10px;
 
     /* Heading Mobile */
     --MH1Size: 36px;
