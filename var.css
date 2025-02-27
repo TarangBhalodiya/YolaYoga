@@ -1,85 +1,85 @@
 @import url('https://fonts.googleapis.com/css2?family=Homemade+Apple&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
 :root{
     --inter : "Inter", sans-serif;
+
+    /* Font Weight */
+    --extra-bold:800;
+    --bold:700;
+    --semi-bold:600;
+    --medium:500;
+    --regular:400;
+
     /* Heading Web */
-    --wH1Size: 70px;
-    --wH1ExtraBold: 800;
+    --WH1Size: 70px;
+    --WH2Size: 50px;
+    --WH3Size: 35px;
+    --WH4Size: 26px;
+    --WH5Size: 24px;
+    --WH6Size: 20px;
+    --WH7Size: 18px;
+    --WH8Size: 16px;
+    --WH9Size: 14px;
 
-    --wH2Size: 50px;
-    --wH2Bold: 700;
+    --WH1LineHeight:80px;
+    --WH2LineHeight:60px;
+    --WH3LineHeight:44px;
+    --WH4LineHeight:36px;
+    --WH5LineHeight:34px;
+    --WH5LineHeightSM:28px;
+    --WH6LineHeight:30px;
+    --WH7LineHeight:28px;
+    --WH8LineHeight:26px;
+    --WH9LineHeight:24px;
 
-    --wH3Size: 35px;
-    --wH3SemiBold: 600;
-
-    --wH4Size: 26px;
-    --wH4Bold: 700;
-
-    --wH5Size: 24px;
-    --wH5Medium: 500;
-    --wH5Bold: 700;
-
-    --wH6Size: 20px;
-    --wH6SemiBold: 600;
-    --wH6Bold: 700;
-
-    --wH7Size: 18px;
-    --wH7SemiBold: 600;
-
-    --wH8Size: 16px;
-    --wH8SemiBold: 600;
-
-    --wH9Size: 14px;
-    --wH9SemiBold: 600;
-
-    /* Paragraph  Web*/
-    --WPRegular: 400;
+    /* Web Paragraph */
     --WP1Size: 18px;
     --WP2Size: 16px;
     --WP3Size: 14px;
 
+    /* web Paragraph line height */
+    --WP1LineHeight:28px;
+    --WP2LineHeight:26px;
+    --WP3LineHeight:24px;
+
     /* Special Text Web */
     --homeMadeApple: "Homemade Apple", cursive;
     --wH1SpecialTextSize: 32px;
-    --wSpecialTextRegular: 400;
     --wH2SpecialTextSize: 18px;
 
-    /* Heading Tablet*/
-    --tH1Size: 50px;
-    --tH2Size: 38px;
-    --tH3Size: 27px;
-    --tH4Size: 21px;
-    --tH5Size: 18px;
-    --tH6Size: 15px;
-    --tH7Size: 12px;
 
-    --WP1Size: 16px;
-    --WP2Size: 13px;
-    --WP3Size: 10px;
+
+    /* Heading Tablet*/
+    --TH1Size: 50px;
+    --TH2Size: 38px;
+    --TH3Size: 27px;
+    --TH4Size: 21px;
+    --TH5Size: 18px;
+    --TH6Size: 15px;
+    --TH7Size: 12px;
+
+
+    /* P1LineHeight */
+    --TH1LineHeight:60px;
+    --TH2LineHeight:48px;
+    --TH3LineHeight:37px;
+    --TH4LineHeight:31px;
+    --TH5LineHeight:28px;
+    --TH6LineHeight:25px;
+    --TH7LineHeight:24px;
+
+    /* Paragraph Tablet */
+    --TP1Size: 16px;
+    --TP2Size: 13px;
+    --TP3Size: 10px;
 
     /* Heading Mobile */
     --MH1Size: 36px;
-    --MH1ExtraBold: 800;
-
     --MH2Size: 26px;
-    --MH2Bold: 700;
-
     --MH3Size: 18px;
-    --MH3SemiBold: 600;
-
     --MH4Size: 14px;
-    --MH4Bold: 700;
-    --MH4SemiBold: 600;
-    --MH4SemiMedium: 500;
-
     --MH5Size: 12px;
-    --MH5SemiBold: 600;
-
     --MH6Size: 10px;
-    --MH6SemiBold: 600;
-
     --MH7Size: 8px;
-    --MH7SemiBold: 600;
-
 
     /* Paragraph Mobile */
     --MPRegular: 400;
@@ -89,9 +89,7 @@
 
     /* Special Text Mobile */
     --MH1SpecialTextSize: 16px;
-    --MH1SpecialTextREgular: 400;
-
-    --mH2SpecialTextSize: 10px;
+    --MH2SpecialTextSize: 10px;
 
 
 
@@ -101,9 +99,8 @@
 
     /* Colors */
     --primaryColorOrange: #ff9f66;
-    --peimaryColorBase:#FF9F66;
     --primaryColorBaseLight: #FFB081;
-    --peimaryColorLight:#FFF1E8;
+    --primaryColorLight:#FFF1E8;
     --secondaryColorYellow: #EDC988;
     --primaryColorGreen: #258675;
     --primaryColorGreen2: #45A090;
@@ -114,3 +111,16 @@
     --stroke3: #F4F5F7;
 }
 
+
+
+
+
+/* b.btn {
+    dfkjlkdfjlsdjfl;
+    border-radius: var(---radius)
+
+    &__icon {}
+
+    &--outline {}
+    &--solid {}
+} */
