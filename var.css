@@ -81,11 +81,24 @@
     --MH6Size: 10px;
     --MH7Size: 8px;
 
+    --MH1LineHeight:46px;
+    --MH2LineHeight:36px;
+    --MH3LineHeight:28px;
+    --MH4LineHeight:16px;
+    --MH4LineHeightLarge:24px;
+    --MH5LineHeight:22px;
+    --MH6LineHeight:20px;
+    --MH7LineHeight:16px;
+
     /* Paragraph Mobile */
     --MPRegular: 400;
     --MP1Size: 12px;
     --MP2Size: 10px;
     --MP3Size: 8px;
+
+    --MP1LineHeight:22px;
+    --MP2LineHeight:20px;
+    --MP3LineHeight:18px;
 
     /* Special Text Mobile */
     --MH1SpecialTextSize: 16px;
