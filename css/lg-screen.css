@@ -35,14 +35,14 @@
           button {
             font-size: var(--web-h7-size);
           }
-          #btn1 {
+          .btn1 {
             color: white;
             border: none;
             background-color: var(--primary-color-orange);
           }
         }
       }
-      .manImg {
+      .hero-img {
         flex: 1;
         #round2 {
           display: none;
@@ -54,14 +54,14 @@
       }
     }
   
-    .horizontalBar {
+    .horizontal-bar {
       height: 565px;
-      .cards {
+      .horizontal-bar-card-container {
         width: fit-content;
         grid-template-columns: repeat(2,1fr);
-        .card {
+        .horizontal-bar-card {
           width: 100%;
-          .cardDesc div {
+          .card-desc div {
             h5 {
               line-height: 20px;
               width: 65%;
@@ -88,7 +88,7 @@
           align-items: normal;
           background-color: var(--secondary-color-pink);
           box-shadow: 0 0 0 0;
-          .cardDesc {
+          .card-desc {
             width: 75%;
             div {
               display: flex;
@@ -135,20 +135,20 @@
   
     .about {
       gap: 2.81rem;
-      .experience {
+      .about-experience {
         flex: 1;
         display: grid;
         grid-template-columns: 1fr 1fr;
         column-gap: 1.37rem;
         row-gap: 1.18rem;
-        .expCard {
-          .expNum {
+        .experience-card {
+          .exp-num {
             font-size: var(--tablet-h2-size);
             font-weight: var(--bold);
             line-height: 45px;
             color: var(--text-dark);
           }
-          .expDesc {
+          .exp-desc {
             flex: 1;
             font-size: var(--tablet-h6-size);
             font-weight: var(--bold);
@@ -161,9 +161,9 @@
           }
         }
       }
-      .experienceDesc {
+      .experience-content {
         flex: 1;
-        h2 {
+        .experience-content-head {
           margin-bottom: 2rem;
         }
         h4 {
@@ -237,17 +237,17 @@
         margin: 0 auto;
         
       }
-      .courseCards {
+      .course-card-container {
         justify-content: space-between;
         gap: 33px;
         margin: 55px 0;
       }
-      .courseCard {
+      .course-card {
         border: none;
         border-radius: 14px;
         padding: 28px;
         transition: all 0.5s ease;
-        .manYoga {
+        .card-man-yoga-img {
           width: 100%;
           margin: 0 auto;
         }
@@ -265,17 +265,17 @@
           width: 100%;  
           margin-bottom: 18px;
         }
-        .ratings {
+        .course-rating-details {
           display: flex;
           flex-direction: column;
           justify-content: space-between;
           align-items: flex-start;
-          .rating{
+          .course-rating{
             img{
               height: 14px;
             }
           }
-          a {
+          .course-start-btn{
             margin-top: 10px;
             text-decoration: none;
             color: var(--text-dark);
@@ -293,17 +293,17 @@
     }
 
     
-.prizing {
-  .plans {
-    .plan {
+.pricing {
+  .pricing-plan-container {
+    .pricing-plan {
       .subscription {
-        .time {
+        .plan-time {
           font-size: var(--tablet-h5-size);
           font-weight: var(--medium);
           line-height: var(--tablet-h5-line-height);
           margin-bottom: 10px;
         }
-        .prize {
+        .plan-price {
           font-size: var(--tablet-h3-size);
           line-height: var(--tablet-h3-line-height);
           font-weight: var(--semi-bold);
@@ -401,7 +401,7 @@
   }
 }
   
-    .contactForm {
+    .contact-form {
       margin: 0 0 38px 0;
       background-image: url(/assets/Shapes.png);
       background-size: contain;
@@ -409,7 +409,7 @@
       background-position: left;
       display: grid;
       grid-template-columns: 1fr;
-      .contactDesc {
+      .contact-form-content {
         padding-bottom:184px;
         flex: 1;
         h2 {

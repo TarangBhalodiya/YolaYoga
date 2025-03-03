@@ -38,17 +38,17 @@
             line-height: var(--mobile-h6-line-height);
             border-radius: 4px;
           }
-          #btn1 {
+          .btn1 {
             margin-right: 10px;
             padding: 5px 20px;
           }
 
-          #btn2 {
+          .btn2 {
             padding: 5px 11px;
           }
         }
       }
-      .manImg {
+      .hero-img {
         position: relative;
         width: 100%;
         display: flex;
@@ -56,14 +56,14 @@
       }
     }
   
-    .horizontalBar {
+    .horizontal-bar {
       height: 545px;
   
       margin-top: -90px;
-      .cards {
+      .horizontal-bar-card-container {
         top: -50px;
-        .card {
-          .cardDesc div {
+        .horizontal-bar-card {
+          .card-desc div {
             h5 {
               font-size: var(--tableet-h5-size);
               line-height: var(--tablet-h5-line-height);
@@ -85,7 +85,7 @@
           flex-direction: row;
           align-items: normal;
           box-shadow: 0 0 0 0;
-          .cardDesc {
+          .card-desc {
             width: 75%;
             div {
               display: flex;
@@ -122,18 +122,18 @@
     
     .about {
       gap: 1.81rem;
-      .experience {
+      .about-experience {
         flex: 1;
         display: grid;
         grid-template-columns: 1fr 1fr;
         column-gap: 1.37rem;
         row-gap: 1.18rem;
-        .expCard {
-          .expNum {
+        .experience-card {
+          .exp-num {
             font-size: var(--mobile-h2-size);
             line-height: var(--mobile-h2-line-height);
           }
-          .expDesc {
+          .exp-desc {
             flex: 1;
             font-size: var(--mobile-h6-size);
             line-height: var(--mobile-h6-line-height);
@@ -148,14 +148,11 @@
           }
         }
       }
-      .experienceDesc {
+      .experience-content {
         flex: 1;
-        /* .expHead {
-          font-size: var(--mobile-h2-size);
-          font-weight: var(--bold);
-          line-height: 30px;
+        .experience-content-head {
           margin-bottom: 1rem;
-        } */
+        }
         h4 {
           font-size: var(--mobile-h1-special-text);
           font-weight: var(--regular);
@@ -213,12 +210,12 @@
         line-height: 20px;
         color: var(--textLight);
       } */
-      .courseCards {
+      .course-card-container {
         grid-template-columns: repeat(2, 1fr);
         gap: 33px;
         margin: 98px 0 55px 0;
       }
-      .courseCard {
+      .course-card {
         margin: 0 auto;
           width: 100%;
           
@@ -229,7 +226,7 @@
         border-radius: 14px;
         padding: 28px;
         transition: all 0.5s ease;
-        .manYoga {
+        .card-man-yoga-img {
           width: 100%;
           /* aspect-ratio: 1/1; */
           margin: 0 auto;
@@ -249,12 +246,12 @@
           width: 100%;  
           margin-bottom: 18px;
         }
-        .ratings {
+        .course-rating-details {
           display: flex;
           flex-direction: column;
           justify-content: space-between;
           align-items: flex-start;
-          a {
+          .course-start-btn {
             margin-top: 10px;
             text-decoration: none;
             color: var(--text-dark);
@@ -269,7 +266,7 @@
           }
         }
       }
-      .courseCard:hover {
+      .course-card:hover {
         box-shadow: 0 18px 36px rgba(0, 0, 0, 0.07);
       }
       .browse {
@@ -284,7 +281,7 @@
       }
     }
   
-      .prizing {
+      .pricing {
         /* h2{
           font-size: var(--MH2Size);
           line-height: 45px;
@@ -293,9 +290,9 @@
           font-size: var(--MP2Size);
           line-height: 20px;
         } */
-        .plans {
+        .pricing-plan-container {
             flex-direction: column;
-            .plan {
+            .pricing-plan {
                     width: 100%;
                     margin-bottom: 20px;
                     .flexbox{
@@ -361,7 +358,7 @@
       }
     }
   
-    .subscribeSection {
+    .subscribe-section {
       padding: 99px 0;
       background-color: var(--primary-color-green);
       .subscribe {
